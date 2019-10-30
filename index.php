@@ -1,16 +1,16 @@
 <?php
-/* !Multi-Dimensional Array! */
+/* !Multi-Dimensional Arrays! */
 
-//Add task 2 
-$task1 = array (
+//Add array to $list mulit-dimensional array 
+$list[] = array (
     'title' => 'Laundry',
     'priority' => 2,
     'due' => '',
     'complete' => true,//End with comma to allow easy additions
 );
 
-//Add  task 1 
-$task2 = array (
+//Add array to $list milti-dimeional array
+$list[] = array (
     'title' => 'Clean out refrigerator',
     'priority' =>  3,
     'due' => '07/20/2016',
@@ -41,4 +41,7 @@ array(2) { //Array list has two 0 index key 1 index key
 
 //Access title of first task
 echo $list[0]['title'];//1st array key 'title; for inner array
+
+
+
 ?>

@@ -1,5 +1,10 @@
 <?php
-/* !Multi-Dimensional Arrays! */
+/* 
+    !Multi-Dimensional Arrays! 
+    Seperate blocks of code.
+    Move comment arrows
+    in order review by section.
+*/
 
 //Add array to $list mulit-dimensional array 
 $list[] = [
@@ -38,13 +43,13 @@ array(2) { //Array list has two 0 index key 1 index key
          ["complete"]=> bool(false) 
         } 
     }
-<------*/
+
 
 //Access title of first task
 echo $list[0]['title'];//1st array key 'title; for inner array
 
 
-/* Example from practical exercise */ 
+//Example from practical exercise  
 $contacts [] = [
   'name' => 'Alena Holligan', 
   'email' => 'alena.holligan@teamtreehouse.com',
@@ -62,13 +67,12 @@ $contacts [] = [
   'email' => 'andrew.chalkley@teamtreehouse.com',
 ];
 
-/* Interesting Strings */ 
-
+//Interesting Strings
 echo "<ul>\n";
 echo "<li>" . $contacts[0]["name"] . " : " . $contacts[0]["email"] . "</li>\n";
 echo "<li>" . $contacts[1]["name"] . " : " . $contacts[1]["email"] . "</li>\n";
 echo "<li>" . $contacts[2]["name"] . " : " . $contacts[2]["email"] . "</li>\n";
 echo "<li>" . $contacts[3]["name"] . " : " . $contacts[3]["email"] . "</li>\n";
 echo "</ul>\n";
-
+<------*/
 ?>

@@ -2,20 +2,20 @@
 /* !Multi-Dimensional Arrays! */
 
 //Add array to $list mulit-dimensional array 
-$list[] = array (
+$list[] = [
     'title' => 'Laundry',
     'priority' => 2,
     'due' => '',
     'complete' => true,//End with comma to allow easy additions
-);
+];
 
 //Add array to $list milti-dimeional array
-$list[] = array (
+$list[] = [
     'title' => 'Clean out refrigerator',
     'priority' =>  3,
     'due' => '07/20/2016',
     'complete' => false,
-);
+];
 
 //Create multi-dimensional array $list
 //No longer necessary whe $task removed

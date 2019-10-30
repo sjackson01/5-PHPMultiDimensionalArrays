@@ -18,7 +18,8 @@ $list[] = array (
 );
 
 //Create multi-dimensional array $list
-$list = array($task1, $task2);
+//No longer necessary whe $task removed
+//$list = array($task1, $task2);
 
 /*------>
 //Remove arrow comments to vie multi-dimensional array notes

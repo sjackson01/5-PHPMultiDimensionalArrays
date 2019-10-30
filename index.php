@@ -44,5 +44,31 @@ array(2) { //Array list has two 0 index key 1 index key
 echo $list[0]['title'];//1st array key 'title; for inner array
 
 
+/* Example from practical exercise */ 
+$contacts [] = [
+  'name' => 'Alena Holligan', 
+  'email' => 'alena.holligan@teamtreehouse.com',
+];
+$contacts [] = [
+  'name' => 'Dave McFarland', 
+  'email' => 'dave.mcfarland@teamtreehouse.com',
+];
+$contacts [] = [
+  'name' => 'Treasure Porth',
+  'email' => 'treasure.porth@teamtreehouse.com',
+];
+$contacts [] = [
+  'name' => 'Andrew Chalkley',
+  'email' => 'andrew.chalkley@teamtreehouse.com',
+];
+
+/* Interesting Strings */ 
+
+echo "<ul>\n";
+echo "<li>" . $contacts[0]["name"] . " : " . $contacts[0]["email"] . "</li>\n";
+echo "<li>" . $contacts[1]["name"] . " : " . $contacts[1]["email"] . "</li>\n";
+echo "<li>" . $contacts[2]["name"] . " : " . $contacts[2]["email"] . "</li>\n";
+echo "<li>" . $contacts[3]["name"] . " : " . $contacts[3]["email"] . "</li>\n";
+echo "</ul>\n";
 
 ?>
